@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+Assets:
+Font: Work sans
+Farben: #2e2e2e / / rgb(234, 204, 194) / #ebccc2 / #fff /rgb(115, 115, 115) 
+*/
+body {
+    background-color: #2e2e2e;
+}
+
+.lol {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 0;
+    right: 0;
+    margin: 1rem 5rem;
+}
+
+.oben {
+
+    margin: 1rem;
+    text-decoration: none;
+    align-self: flex-end;
+    color: #867772;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(234, 204, 194);
+}
+
+.logo {
+    margin: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    vertical-align: super;
+}
+
+.subs {
+    margin-right: 5rem;
+}
+
+.asdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ebccc2;
+    margin-top: 10rem;
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first {
+    background-image: url("../img/section-about-1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    margin: 5rem;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fofir {
+    width: 100%;
+    background-image: url("../img/BS1_NYC_Home.webp");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    margin: 5rem;
+    margin-left: 15rem;
+
+}
+
+.fosec h1 {
+    color: #ebccc2;
+}
+
+.fosec p {
+    margin-top: 5rem;
+    color: #867772;
+    padding-right: 15rem;
+}
+
+/*=============
+second page
+=============*/
+.lounge-ma {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.lounge_back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/section-voyager.jpg");
+    background-position: top;
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 220rem;
+}
+
+.lounge-text {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.lounge-text p {
+    margin: 5rem;
+    color: #867772;
+}
+
+.lounge-text h1 {
+    color: #ebccc2;
+}
+
+/*=================
+page nr 3
+=====*/
+
+.experience_back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/section-experience-1.jpg");
+    background-position: top;
+
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 230rem;
+}
+
+/*==========
+page 4
+=========*/
+
+video {
+    width: 50rem;
+    height: 35rem;
+    margin: 10rem 25%;
+}
+
+.mmaaiinn {
+    padding: 10rem;
+}
+
+h4 {
+    color: #ebccc2;
+    font-weight: 100;
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heins {
+    color: #ebccc2;
+}
+
+.ramen {
+    margin-top: 2rem;
+    font-size: 9pt;
+    color: #867772;
+    width: min-content;
+    border: solid #fff;
+    padding: .2rem .5rem;
+}
+
+.rammen {
+    display: flex;
+    gap: .4rem;
+}
+
+.q {
+    margin-top: .5rem;
+    color: #867772;
+}
+
+.baelle {
+    background-image: url("../img/ETC_6.webp");
+    width: 110%;
+    background-position: center;
+    background-size: cover;
+}
+
+.texte {
+    width: 100%;
+    height: 45rem;
+    padding: 1rem;
+}
+
+.haupt {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.aa {
+    margin: 5rem 0 5rem;
+}
+
+.heinss {
+    margin-bottom: 4rem;
+    color: #ebccc2;
+}
+
+.qp {
+
+    color: #867772;
+}
+
+.baellle {
+    background-image: url("../img/ETC_5.webp");
+    width: 105%;
+    background-position: center;
+    background-size: cover;
+}
+
+.textee {
+    width: 100%;
+    height: 45rem;
+    padding: 1rem;
+}
+
+.hauptt {
+    display: flex;
+    justify-content: center;
+}
+
+/*===========
+page 5 
+=========*/
+
+.shop-ma {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.shop_back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/section-composition4.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 900rem;
+}
+
+.shop-text {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.shop-text p {
+    margin-top: 1rem;
+    color: #867772;
+}
+
+.shop-text h1 {
+    color: #ebccc2;
+}
+
+button {
+    background-color: #ebccc2;
+    padding: 1rem 1.5rem;
+}
+
+.preis {
+    margin-top: 2rem;
+}
+/*===============
+PaGE nR 6 
+===========*/
+.cmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.cheins {
+    color: #ebccc2;
+    margin-top: 5rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    border-bottom: #ebccc2 solid .1rem;
+
+}
+.ctext{
+    font-size: 20pt;
+    margin-top: 15rem;
+    color: #ebccc2;
+}
+.mail{
+    color: #fff;
+    border-bottom: solid white;
+    padding-bottom: 1rem;
+    text-decoration: none;
+}
+.mail:hover{
+    text-decoration: overline wavy;
+    color: #867772
+}
+
+
+/*luull
+=====*/
+.mnnav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index:0;
+}
+
+.mnnav a {
+    text-decoration: none;
+    color: #867772;
+    font-size: 1rem;
+    vertical-align: middle;
+    text-transform: uppercase;
+    height: 4rem;
+    margin-left: 5rem
+}
+
+.mnnav a:hover {
+    color: #ebccc2;
+}
+
+.mnnav a::before {
+    content: "";
+    position: absolute;
+    left: 2.35rem;
+    margin-top: 1.2rem;
+    height: 2.7em;
+    border-left: 1px solid #867772;
+    z-index: -1;
+}
+
+.mnnav .last::before {
+    content: "";
+    position: absolute;
+    margin-top: 1rem;
+    height: 1rem;
+    border-left: 0px solid white;
+}
+
+.mnnav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.mnnav li {
+    list-style: circle;
+    vertical-align: top;
+    color: #867772;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mnnav li::before {
+    display: flex;
+    position: absolute;
+    content: "";
+    left: 1.7rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 100%;
+    border: 1px solid #867772;
+    align-self: flex-start;
+}
+
+.mnnav .active::before {
+    display: flex;
+    position: absolute;
+    ;
+    content: "";
+    left: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    border: 1px solid #867772;
+    outline-offset: .3rem;
+    outline-width: .1rem;
+    outline-color: white;
+    outline-style: solid;
+
+}
+
+/*======================================
+Contact nav
+*/
+.mnnavi {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+
+.mnnavi a {
+    text-decoration: none;
+    color: #867772;
+    font-size: 1rem;
+    vertical-align: middle;
+    text-transform: uppercase;
+    height: 4rem;
+    margin-left: 5rem
+}
+
+.mnnavi a:hover {
+    color: #ebccc2;
+}
+
+.mnnavi a::before {
+    content: "";
+    position: absolute;
+    left: 2.35rem;
+    margin-top: 1.2rem;
+    height: 2.7em;
+    border-left: 1px solid #867772;
+    z-index: -1;
+}
+
+.mnnavi .last::before {
+    content: "";
+    position: absolute;
+    margin-top: 1rem;
+    height: 1rem;
+    border-left: 0px solid white;
+}
+
+.mnnavi ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.mnnavi li {
+    list-style: circle;
+    vertical-align: top;
+    color: #867772;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mnnavi li::before {
+    display: flex;
+    position: absolute;
+    content: "";
+    left: 1.7rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 100%;
+    border: 1px solid #867772;
+    align-self: flex-start;
+}
+
+.mnnavi .active::before {
+    display: flex;
+    position: absolute;
+    ;
+    content: "";
+    left: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    border: 1px solid #867772;
+    outline-offset: .3rem;
+    outline-width: .1rem;
+    outline-color: white;
+    outline-style: solid;
+
+}
