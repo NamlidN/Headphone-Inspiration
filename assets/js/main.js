@@ -1,5 +1,4 @@
 function myFunction() {
-    prompt('Newsletter Abbonieren?');
-
+    confirm('Newsletter Abbonieren?');
 }
 myFunction()
