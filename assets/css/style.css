@@ -313,7 +313,7 @@ PaGE nR 6
 }
 .ctext{
     font-size: 20pt;
-    margin-top: 15rem;
+    margin-top: 10rem;
     color: #ebccc2;
 }
 .mail{
@@ -326,8 +326,20 @@ PaGE nR 6
     text-decoration: overline wavy;
     color: #867772
 }
-
-
+input{
+    height: 10rem;
+    width: 10rem;
+}
+.cc{
+    margin-top: 5rem;
+    color: #ebccc2;
+text-align: center;
+}
+.cbody{
+    width: 20rem;
+    margin: 0 auto;
+  /*wegen der nav bau an der seite wegen z index */
+}
 /*luull
 =====*/
 .mnnav {
